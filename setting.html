@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/bootstrap-5.1.3/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/bootstrap-5.1.3/js/bootstrap.js">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengaturan</title>
+</head>
+
+<body>
+
+    <div class="row">
+        <!-- bagian sidebar / navbar -->
+        <div class="sidenav  bg-primary" style="width:25%; height: 620px;">
+            <ul class="nav flex-column mt-5">
+                <li class="nav-item">
+                    <a class="nav-link group-item" href=" #"><i class=" bi bi-printer"
+                            style="font-family: Arial, Helvetica, sans-serif; font-style: normal;  margin-left: 15px;">
+                            Printer</i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link group-item" href="#"><i class="bi bi-upc-scan"
+                            style="font-family: Arial, Helvetica, sans-serif; font-style: normal;   margin-left: 15px;">
+                            Scanner</i></a>
+                </li>
+            </ul>
+        </div>
+        <!-- bagian content -->
+        <div class="col mt-4 " style="width:25%">
+            <div class="row">
+                <div class="col text-center">
+                    <h1>Pengaturan Aplikasi</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <!-- <div class="col-md"> -->
+                <div class="container col-md-11 mb-2 mt-2">
+                    <!-- <div class="col-md"> -->
+                    <div class="card-body col-md-10 mb-3 mt-3  bg-primary text-light" style="border-radius: 15px;">
+                        <form class="mb-3 " action="" method="post">
+                            <div class="col-md mb-3 pt-4 mt-4">
+                                <div class="row justify-content-center">
+                                    <div class="col-md-2 pb-1 text-center">
+                                        <label for="vendor" class="form-group">USB Vendor</label>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <select id="vendor" class="form-select" style="border-radius: 17px;"
+                                            aria-label="Default select example">
+                                            <option selected>Open this select menu</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-md mb-3 mb-3 mt-3">
+                                <div class="row justify-content-center">
+                                    <div class="col-md-2 pb-1 text-center">
+                                        <label for="product" class="form-group">USB Product</label>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <select id="product" class="form-select" aria-label="Default select example"
+                                            style="border-radius: 17px;">
+                                            <option selected>Open this select menu</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center mb-4">
+                                <div class="col-md-3 mb-2 pb-1 text-center">
+                                    <button type="button" class="btn btn-success " id="btnSave">SIMPAN</button>
+                                </div>
+                                <div class="col-md-3 text-center pb-3">
+                                    <button type="button" class="btn btn-warning ">TES KONEKSI</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- </div> -->
+                </div>
+                <!-- </div> -->
+                <div class="row justify-content-center">
+                    <div class="col-md-3 mb-3 text-center">
+                        <button type="button" class="btn btn-secondary" id="btnAwal">Halaman Awal</button>
+
+                    </div>
+                    <div class="col-md-3 mb-3 text-center">
+                        <button type="button" class="btn btn-danger" id="btnTutup">Tutup Aplikasi</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

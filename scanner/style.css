@@ -1,0 +1,67 @@
+@import url('https://css.gg/scan.css');
+
+html, body {
+  height: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.sidenav {
+height: 100%;
+width: 250px;
+position: fixed;
+z-index: 1;
+background-color:#0d6efd;
+padding-top: 120px;
+padding-right: 45px;
+
+}
+.sidenav a:hover{
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  width: 238px;
+}
+
+
+.sidenav a {
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  width: 238px;
+}
+
+.btn-warning{
+  color: white;
+}
+.btn-danger:hover {
+  background-color: rgb(252, 90, 90);
+  color: black;
+}
+.btn-warning:hover {
+  background-color: rgb(255, 252, 74);
+
+}
+.btn-success {
+width: 120px;
+ 
+}
+.btn-success:hover{
+  background-color: rgb(1, 209, 1);
+ 
+}
+
+.form-group{
+  
+    background-color:  #0d6efd;
+    margin-left: 20%;
+    
+}
+
+.figure{
+  height: 200px;
+  font-size: 50px;
+  border-color: black;
+  border: 2px;
+}
